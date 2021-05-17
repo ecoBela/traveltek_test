@@ -13,7 +13,8 @@
   "description": "",
   "dependencies": {
     "express": "^4.17.1",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.4.23",
+    "xml2js-parser": "^1.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
