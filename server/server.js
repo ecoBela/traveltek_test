@@ -12,12 +12,12 @@ var parser = new xml2js.Parser();
 
 const allFlights = [];
 
-fs.readFile('/Users/belahamid/post_codeclan/traveltek/traveltek_challenge/server/db/test_data.xml', function(err, data) {
+fs.readFile('/Users/belahamid/post_codeclan/traveltek/traveltek_challenge/server/db/flightdata_A.xml', function(err, data) {
     parser.parseString(data, function (err, result) {
         console.dir(result.flights.flight);
         
         allFlights.push(result.flights.flight);
-        console.log('Done');
+        console.log('All done');
         
     });
 });
